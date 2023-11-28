@@ -1,5 +1,5 @@
 def nova_ficha_de_cliente():
-
+    """pede e recebe os dados dos novos clientes"""
     Nome_do_Cliente = input("Introduzir nome do cliente: ")
     Novo_cliente_idade = int(input("Idade do cliente: "))
 
