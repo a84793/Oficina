@@ -16,3 +16,7 @@ def cria_novo_Perfil_de_utilizador():
 
 
 cria_novo_Perfil_de_utilizador()
+
+def imprime_lista_de_veiculos(lista_de_veiculos):
+
+    imprime_lista(cabecalho="Lista de Veiculos", lista=lista_de_veiculos)
