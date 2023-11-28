@@ -32,7 +32,6 @@ def nova_ficha_de_cliente():
 nova_ficha_de_cliente()
 
 def nova_ficha_de_cliente():
-
     lista_de_clientes = []
 
     while True:
