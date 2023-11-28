@@ -1,9 +1,9 @@
-from clientes import cria_novo_cliente, imprime_lista_de_clientes
+from clientes import nova_ficha_de_cliente, nova_ficha_de_cliente
 from faturas import cria_nova_fatura, imprime_lista_de_faturas
 from io_ficheiros import (carrega_as_listas_dos_ficheiros,
                           guarda_as_listas_em_ficheiros)
 from io_terminal import pause
-from veiculos import cria_novo_veiculo, imprime_lista_de_veiculos
+from veiculos import cria_novo_Perfil_de_utilizador, imprime_lista_de_veiculos
 
 
 def menu():
