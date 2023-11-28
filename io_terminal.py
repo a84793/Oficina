@@ -2,13 +2,6 @@ from tabulate import tabulate
 
 
 def pergunta_id(questao, lista, mostra_lista=False):
-    """TODO: documentação
-
-    :param questao:
-    :param lista:
-    :param mostra_lista:
-    :return:
-    """
 
     if mostra_lista:
         imprime_lista(cabecalho="", lista=lista)
@@ -22,29 +15,12 @@ def pergunta_id(questao, lista, mostra_lista=False):
 
 
 def pause():
-    """Faz uma pausa no programa e espera que o utilizador pressione ENTER"""
 
     input("Pressione ENTER para continuar...")
 
 
 def imprime_lista(cabecalho, lista):
-    """Imprime a :attr:`lista` na forma de uma tabela com um cabeçalho
-
-    Recebe uma lista na forma [{"atrib1": valor1, "atrib2": valor2, ...},
-    {"atrib1": valor1, "atrib2": valor2, ...}, ...] e imprime no terminal uma tabela
-    na forma
-
-    ==  ======  ======
-    id  atrib1  atrib2
-    ==  ======  ======
-    0   valor1  valor2
-    1   ...      ...
-    ==  ======  ======
-
-    :param cabecalho: Cabecalho para a listagem
-    :param lista: Lista a ser impressa
-    """
-
+  
     print(cabecalho)
 
     if (len(lista) == 0):
