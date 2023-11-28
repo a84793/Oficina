@@ -40,12 +40,12 @@ def menu():
             lista_de_veiculos, lista_de_clientes, lista_de_faturas = carrega_as_listas_dos_ficheiros()
 
         elif op == "nc":
-            novo_cliente = cria_novo_cliente()
+            novo_cliente = nova_ficha_de_cliente()
             if novo_cliente is not None:
                 lista_de_clientes.append(novo_cliente)
 
         elif op == "nv":
-            novo_veiculo = cria_novo_veiculo()
+            novo_veiculo = cria_novo_Perfil_de_utilizador()
             if novo_veiculo is not None:
                 lista_de_veiculos.append(novo_veiculo)
 
@@ -58,7 +58,7 @@ def menu():
             lista_de_faturas.append(nova_fatura)
 
         elif op == "lc":
-            imprime_lista_de_clientes(lista_de_clientes)
+            nova_ficha_de_cliente(lista_de_clientes)
             pause()
 
         elif op == "lv":
