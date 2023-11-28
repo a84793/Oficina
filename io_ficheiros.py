@@ -23,3 +23,8 @@ def guarda_as_listas_em_ficheiros(lista_de_veiculos, lista_de_clientes, lista_de
         guarda_em_ficheiro(nome_ficheiro_lista_de_faturas, lista_de_faturas)
     else:
         print("Gravação cancelada...")
+
+def guarda_em_ficheiro(nome_do_ficheiro, dados):
+
+    with open(nome_do_ficheiro, "wb") as f:
+        pickle.dump(dados, f) 
