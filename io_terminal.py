@@ -14,7 +14,7 @@ id  atrib1  atrib2
 ==  ======  ======
 
 :para cabecalho: Cabecalho para a listagem
-:param lista: Lista a ser impressa
+:param lista: Lista a ser impressa.
 """
 
 def pergunta_id(questao, lista, mostra_lista=False):
